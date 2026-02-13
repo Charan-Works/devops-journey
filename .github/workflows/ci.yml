@@ -15,5 +15,5 @@ jobs:
         with:
           python-version: "3.9"
 
-      - name: Run the app
-        run: python app.py
+      - name: Run tests
+        run: python -m unittest test_app.py
